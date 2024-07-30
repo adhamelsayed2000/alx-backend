@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """A Basic Flask app with internationalization support.
 """
-from flask_babel import Babel
-from flask import Flask, render_template, request
-
+from flask import Flask, render_template
+from flask_babel import Babel, _
 
 class Config:
     """Represents a Flask Babel configuration.
