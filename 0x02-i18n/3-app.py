@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""A Basic Flask app with internationalization support.
+"""A Basic Flask app
 """
 from flask_babel import Babel
 from flask import Flask, render_template, request
 
 
 class Config:
-    """Represents a Flask Babel configuration.
+    """Represents
     """
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
